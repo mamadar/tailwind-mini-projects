@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+.spin {animation: rotate 20s linear infinite}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.bgimg{
+    background-image: url("../Siteimg/2-B65tPBiO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
